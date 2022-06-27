@@ -2,7 +2,7 @@
 
 let maior = 0
 let menor = Infinity
-function MaiorNumero() {
+function maiorEmenorNumero() {
     for (numero in numeros) {
         let comparacao = (numeros[numero])
         if (comparacao > maior) {
@@ -15,4 +15,4 @@ function MaiorNumero() {
     console.log(`você escolheu os número '${numeros}', o maior entre eles é: O número ${maior}, e o menor é: O número ${menor}`)
 }
 
-MaiorNumero(numeros = [5, -2, 2, 10, 2])
+maiorEmenorNumero(numeros = [5, -2, 2, 10, 2])
